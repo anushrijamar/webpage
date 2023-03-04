@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Webpage with style</title>
+ <style type="text/css">
+p {
+color:black;
+font-size:100%;
+}
+
+.exo{
+color:white;
+font-size:100%;
+text-decoration:underline;
+}
+.first{
+background-color: #DBB8ED    ;
+padding:5px 10px 10px 15px;
+
+}
+.note{
+color:red;
+font-size:100%;
+text-decoration:underline;
+text-decoration:bold;
+
+</style>
+</head>
+<body bgcolor="#35154B ">
+<script>
+function fun(){
+alert("Want to continue");
+var name=prompt("HELLO\nEnter your name");
+document.write("WELCOME\n");
+document.write(name);
+document.write("<br/>");
+document.write("\nYour total bill is Rs 50"); 
+document.write("<br\>");
+document.write("THANK YOU"); }
+</script>
+<h1 style="color:white" ><b>HTML(Hyper text Mark up Language)</b></h1>
+<h1 class="exo">BASIC TAGS</h1>
+
+<div class="first">
+<p >The heading tag<br><b> &lt h1 &gt Write the heading &lt /h1 &gt</b><br>For semiheading <b>&lt h2 &gt </b>tag  furthur <b>h3,h4,h5,h6 </b>are there</p>
+<p>Paragraph tag<br><b>&lt p &gt Write the content &lt /p &gt</b></p>
+<div class="note">Can take number of these tags according to the requirement</div><hr>
+</div>
+<h1 class="exo">STYLE OF TEXT</h1>
+<div class="first">
+<p>These are opening and closing tags</p>
+<p>For making the text bold
+<br><b>&lt b&gt Content &lt /b &gt </b><br>OR<br><b> &lt strong &gt Content &lt /strong &gt<br></b></p>
+<p>For making text italic <b><br>&lt i&gt Content &lt /i &gt </b><br> OR <br><b> &lt em&gt Content &lt /em &gt</b></p>
+<p>For underlined text ><br><b>&lt u&gt Content &lt /u &gt</p> </b> OR <br><b> &lt ins&gt Content &lt /ins &gt</b>
+<p>For Superscript<br> <b>&lt sup&gt Content &lt /sup &gt</b><br>For Subscript<br><b> &lt sub &gt Content &lt /sub &gt </b><br> For Strike <br><b>&lt strike &gt Content &lt /strike &gt <br> OR <br> &lt del&gt Content &lt /del &gt </b>
+
+<div class="note">Most common single opening and closing tag</div>
+<p>For horizontal line <b>&lt hr &gt </b> <br>For breaking line or jumping to next line <b>&lt br &gt</b> 
+</div>
+<h1 class="exo">LIST</h1>
+<div class="first">
+<p>There are two types of list<br> 1)Unordered list <br> 2)Ordered list., </p>
+<p>Unordered list is followed by opening and closing tags as <br><b> &lt ul &gt <br>     &lt li &gt Content1 &lt /li &gt <br>     &lt li &gt Content2 &lt /li &gt <br>&lt /ul &gt|</b> <br></b>
+<p>Ordered list is followed by opening and closing tags as <br><b> &lt ol &gt <br>     &lt li &gt Content1 &lt /li &gt <br>     &lt li &gt Content2 &lt /li &gt <br>&lt /ol &gt|</b> <br></b>
+</div>
+<h1 class="exo">BASIC</h2>
+<div class="first">
+<p>For adding background color <br><b> &lt body bgcolor="Color_name" &gt </b></p>
+<p>For adding image<b>&lt img src="name.type"</b><br>For adding attributes to the image <br><b>&lt img src="name.type" width="_px";align="_" &gt</b></p>
+</div>
+<h1 class="exo">FORMS</h1>
+<div class="first"><br>
+<p>To create form:<br>It have different attributes <br>For 
+Example<br><b>&lt form &gt <br> &lt input = "Text" &gt <br> &lt /form &gt </b></p>
+<p>For refernce of table click on the link,visit the website,right click,and click on <b>VIEW PAGE SOURCE</b></p>
+<p>
+<b><a href="file:///C:/Users/Anushri/Desktop/WEB%20DEVELOPMENT/HTML/form.html">CLICK ME for form </a></b>
+</div>
+h1 class="exo">FORMS</h1>
+<div class="first"><br>
+<p>To create Table:<br>It have different attributes <br>For 
+Example<br><b>&lt table &gt <br> &lt tr &gt <br> &lt td &gt Write table contents &lt /td &gt <br> &lt td &gt Write table contents of next block &lt /td &gt <br> &lt tr &gt <br> &lt /table &gt </b></p>
+<p>For refernce of form click on the link,visit the website,right click,and click on <b>VIEW PAGE SOURCE</b></p>
+<p>
+<b><a href="file:///C:/Users/Anushri/Desktop/WEB%20DEVELOPMENT/HTML/timetable.html">CLICK ME for table</a></b>
+<h1 class="note">Click on both the links for better understanding of forms and tables</h1><hr>
+<p >Click on proceed button to download the notes</p></div>
+<p><input type="submit" onclick="return fun()"></p>
+</body>
+</html>
